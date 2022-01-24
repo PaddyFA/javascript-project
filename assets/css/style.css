@@ -54,14 +54,7 @@ div {
 
 /* questions page */
 
-.background-questions {
-    background-image: url('../images/questions-background.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    margin: 10px;
-}
+
 
 
 .questions-container {
