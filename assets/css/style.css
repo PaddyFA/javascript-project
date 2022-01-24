@@ -5,6 +5,7 @@ body {
     background-color: #696969;
     font-family: Roboto, sans-serif;
     text-align: center;
+
 }
 
 a {
@@ -14,6 +15,7 @@ a {
 
 h1 {
     margin: 30px;
+    color: white;
 }
 
 #takequizbtn {
@@ -39,6 +41,16 @@ div {
 
 /* questions page */
 
+.background-questions {
+    background-image: url('../images/questions-background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+}
+
+
 .questions-container {
     display: flex;
     flex-direction: column;
@@ -47,19 +59,23 @@ div {
 
 .questions {
     border: 3px solid black;
-    flex-basis: 400px;
+    border-radius: 10px;
+    flex-basis: 300px;
     flex-grow: 0;
     flex-shrink: 0;
     margin: 10px;
-   
-   
+    background-color: rgba(53,56,57,0.6);
+}
 
+.questions h2 {
+    color: white;
 }
 
  .form-flex, label {
 
     font-size: 25px;
     padding-top: 10px;
+    color: white;
         
     
 }
