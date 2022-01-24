@@ -50,11 +50,54 @@ div {
     flex-basis: 400px;
     flex-grow: 0;
     flex-shrink: 0;
-    margin: 50px;
+    margin: 10px;
    
    
 
 }
+
+ .form-flex, label {
+
+    font-size: 25px;
+    padding-top: 10px;
+        
+    
+}
+
+input[type="checkbox"]{
+    
+        width: 25px;
+        height: 25px;
+        padding-right: 0;
+        margin-right: 10px;
+        vertical-align: middle;
+        position: relative;
+        top: -1px;
+        font-size: 20px;
+  }
+
+  .form-flex {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      justify-content: space-around;
+      
+  }
+
+
+  .form-flex div {
+      height: 80px;
+
+    
+  }
+
+
+  
+
+ 
+
+  
+  
 
 
 
@@ -64,4 +107,9 @@ div {
     .largefont {
         font-size: xx-large;
     }
+
+    .questions {
+        margin: 80px;
+    }
 }
+
