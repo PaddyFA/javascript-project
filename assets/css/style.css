@@ -68,6 +68,7 @@ div {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 
 .questions {
@@ -78,32 +79,30 @@ div {
     flex-shrink: 0;
     margin: 10px;
     background-color: rgba(53,56,57,0.6);
+    box-shadow: 0 0 10px 5px;
 }
 
 .questions h2 {
     color: white;
 }
 
- .form-flex, label {
-
-    font-size: 25px;
-    padding-top: 10px;
-    color: white;
-        
+ 
+    
+.btn {
+    background-color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 6px;
+    color: black;
     
 }
 
-input[type="checkbox"]{
-    
-        width: 25px;
-        height: 25px;
-        padding-right: 0;
-        margin-right: 10px;
-        vertical-align: middle;
-        position: relative;
-        top: -1px;
-        font-size: 20px;
-  }
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+
 
   .form-flex {
       display: flex;
@@ -123,6 +122,24 @@ input[type="checkbox"]{
   .next {
       display: flex;
       justify-content: space-around;
+  }
+
+  .startbtn {
+    background-color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 6px;
+    color: black;
+    
+  }
+
+  .startbtn:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .hide {
+      display: none;
   }
 
   .nextbtn {
