@@ -138,8 +138,21 @@ div {
     color: white;
   }
 
-  .hide {
+  /*.hide {
       display: none;
+  }*/
+
+  .quit {
+    background-color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 6px;
+    color: black;
+  }
+
+  .quit:hover {
+    background-color: black;
+    color: white;
   }
 
   .nextbtn {
@@ -157,6 +170,7 @@ div {
     color: white;
 }
 
+
   .correct {
       background-color: green;
       font-size: 20px;
@@ -169,6 +183,34 @@ div {
       font-size: 20px;
   }
 
+
+  .scoreflex {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      border: 3px solid black;
+      border-radius: 10px;
+      flex-basis: 100px;
+      flex-grow: 0;
+      flex-shrink: 0;
+      background-color: rgba(53,56,57,0.6);
+      box-shadow: 0 0 10px 5px;
+      margin: 0 10px 0 10px;
+      
+  }
+
+  .scores {
+    color: white;
+    font-size: 20px;
+   
+  }
+  #score {
+      color: green;
+  }
+
+  #incorrect {
+      color: red;
+  }
   
 
  
@@ -186,6 +228,10 @@ div {
     }
 
     .questions {
+        margin: 80px;
+    }
+
+    .scoreflex {
         margin: 80px;
     }
 }
